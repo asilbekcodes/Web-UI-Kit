@@ -48,4 +48,8 @@
   left: 710px;
   filter: grayscale(1);
   box-shadow: 39px -35px 0px 0px rgb(232, 232, 232);
+}
+
+body {
+  padding: 50px;
 }/*# sourceMappingURL=main.css.map */
