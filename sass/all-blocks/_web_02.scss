@@ -12,9 +12,7 @@
 }
 .main{
     display: grid;
-    // justify-content: space-between;
     grid-template-columns: auto auto auto;
-    // margin-top: 150px;
     align-items: center;
     .main__items{
         p{
