@@ -1,3 +1,9 @@
+body {
+  padding: 50px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container .container__content {
   display: flex;
   justify-content: space-between;
@@ -97,6 +103,24 @@
   margin: 0;
 }
 
-body {
-  padding: 50px;
+.menu {
+  display: flex;
+  justify-content: end;
+}
+.menu p {
+  font-size: 30px;
+}
+
+.imges {
+  margin-left: 100px;
+}
+
+.Scroll {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.Scroll p {
+  font-size: 30px;
+  margin-left: 100px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,8 @@
-@import "all-blocks/all-blocks";
-
 body{
     padding: 50px;
+    margin: 0;
+    box-sizing: border-box
 }
+
+
+@import "all-blocks/all-blocks";
