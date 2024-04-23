@@ -138,6 +138,32 @@ body {
   margin-top: 20px;
 }
 
+.web-5 {
+  display: flex;
+  gap: 100px;
+}
+.web-5 .web-5__item {
+  padding: 100px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  font-family: sans-serif;
+}
+.web-5 .web-5__item .web-5__item-item h1 {
+  font-size: 64px;
+}
+.web-5 .web-5__item .web-5__item-item .web-5__item-item-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 50px;
+}
+.web-5 .web-5__item .web-5__item-item .web-5__item-item-grid .p-green {
+  color: #009E06;
+}
+.web-5 .web-5__item .web-5__item-p {
+  display: flex;
+  align-items: end;
+}
+
 .menu {
   display: flex;
   justify-content: end;
