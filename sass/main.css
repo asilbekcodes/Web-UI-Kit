@@ -104,6 +104,40 @@ body {
   margin: 0;
 }
 
+.bdy {
+  padding: 0;
+}
+.bdy .flex {
+  display: flex;
+  align-items: center;
+}
+.bdy .flex .flex__text {
+  text-align: center;
+}
+.bdy .flex .flex__text h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  margin: 0;
+}
+.bdy .flex .flex__text p {
+  width: 350px;
+}
+.bdy .flex .flex__text input {
+  width: 360px;
+  height: 40px;
+}
+.bdy .flex .flex__text button {
+  display: block;
+  width: 150px;
+  height: 40px;
+  font-size: 22px;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 .menu {
   display: flex;
   justify-content: end;

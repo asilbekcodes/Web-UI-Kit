@@ -1,0 +1,33 @@
+.bdy{
+    padding: 0;
+    .flex{
+        display: flex;
+        align-items: center;
+        .flex__text{
+            text-align: center;
+            h1{
+                font-size: 60px;
+                font-family: sans-serif;
+                margin: 0;
+            }
+            p{
+                width: 350px;
+            }
+            input{
+                width: 360px;
+                height: 40px;
+            }
+            button{
+                display: block;
+                width: 150px;
+                height: 40px;
+                font-size: 22px;
+                background: #000;
+                color: #fff;
+                border-radius: 10px;
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+        }
+    }
+}
