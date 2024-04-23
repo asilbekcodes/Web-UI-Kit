@@ -94,6 +94,7 @@ body {
   position: relative;
   left: 272px;
   bottom: 235px;
+  filter: grayscale(1);
 }
 
 .footer {
