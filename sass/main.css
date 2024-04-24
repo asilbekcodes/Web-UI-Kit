@@ -173,6 +173,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.web-7 .web-7__item {
+  text-align: center;
+}
+.web-7 .web-7__item h1 {
+  font-size: 60px;
+}
 
 .menu {
   display: flex;
