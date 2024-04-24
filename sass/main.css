@@ -184,4 +184,27 @@ body {
 .Scroll p {
   font-size: 30px;
   margin-left: 100px;
+}
+
+.katy {
+  padding: 50px;
+  box-sizing: border-box;
+}
+.katy .katy__item {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.katy .katy__item p {
+  margin: 0;
+}
+
+.ftr {
+  width: 100%;
+  height: 67.6vh;
+  display: flex;
+  align-items: end;
+}
+.ftr .ftr-img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

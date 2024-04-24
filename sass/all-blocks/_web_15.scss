@@ -1,0 +1,21 @@
+.katy{
+    padding: 50px;
+    box-sizing: border-box;
+    .katy__item{
+        display: flex;
+        gap: 5px;
+        margin-bottom: 50px;
+        p{
+            margin: 0;
+        }
+    }
+}
+.ftr{
+    width: 100%;
+    height: 67.6vh;
+    display: flex;
+    align-items: end;
+    .ftr-img{
+        width: 100%;
+    }
+}
