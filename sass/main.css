@@ -164,6 +164,16 @@ body {
   align-items: end;
 }
 
+.web-7 {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 50px 80px 50px 0;
+}
+.web-7 .web-7__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu {
   display: flex;
   justify-content: end;

@@ -1,0 +1,10 @@
+.web-7{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    // align-items: center;
+    padding: 50px 80px 50px 0;
+    .web-7__nav{
+        display: flex;
+        justify-content: space-between;
+    }
+}
