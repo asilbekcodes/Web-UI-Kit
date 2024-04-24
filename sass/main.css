@@ -175,6 +175,7 @@ body {
 }
 .web-7 .web-7__item {
   text-align: center;
+  margin-top: 250px;
 }
 .web-7 .web-7__item h1 {
   font-size: 60px;
@@ -185,6 +186,7 @@ body {
   background: #d1d1d1;
   height: -moz-max-content;
   height: max-content;
+  margin-top: 250px;
 }
 
 .menu {
