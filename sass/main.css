@@ -179,6 +179,13 @@ body {
 .web-7 .web-7__item h1 {
   font-size: 60px;
 }
+.web-7 .web-7__content {
+  display: flex;
+  justify-content: space-around;
+  background: #d1d1d1;
+  height: -moz-max-content;
+  height: max-content;
+}
 
 .menu {
   display: flex;
