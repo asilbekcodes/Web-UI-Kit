@@ -4,6 +4,6 @@
 
 ---
 
-# ___Consists of technologies___
+# ___Consists of technologies___ <img 
 
 <img src="./imges/readme-img/web-skren.png">
