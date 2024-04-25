@@ -261,4 +261,21 @@ body {
 }
 .web_17 .web_17-p {
   color: #ff0000;
+}
+
+.web_17-img {
+  display: flex;
+  justify-content: end;
+  margin: 50px 0 50px;
+}
+.web_17-img .web_17-img-1 {
+  position: relative;
+  left: 200px;
+}
+.web_17-img .web_17-img-2 {
+  position: relative;
+  left: 100px;
+}
+.web_17-img .web_17-img-3 {
+  z-index: 1;
 }/*# sourceMappingURL=main.css.map */
