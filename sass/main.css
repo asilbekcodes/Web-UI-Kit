@@ -283,6 +283,7 @@ body {
 .web_17-item {
   width: 600px;
   margin-left: 150px;
+  margin-bottom: 100px;
 }
 .web_17-item h1 {
   font-size: 100px;
@@ -291,4 +292,13 @@ body {
 .web_17-item p {
   font-size: 40px;
   margin-top: 0;
+}
+
+.web_17-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.web_17-footer .web_17-footer-item {
+  display: flex;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */
