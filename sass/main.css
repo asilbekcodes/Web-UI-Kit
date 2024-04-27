@@ -278,4 +278,17 @@ body {
 }
 .web_17-img .web_17-img-3 {
   z-index: 1;
+}
+
+.web_17-item {
+  width: 600px;
+  margin-left: 150px;
+}
+.web_17-item h1 {
+  font-size: 100px;
+  margin-bottom: 0;
+}
+.web_17-item p {
+  font-size: 40px;
+  margin-top: 0;
 }/*# sourceMappingURL=main.css.map */
