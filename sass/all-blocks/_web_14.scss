@@ -1,0 +1,13 @@
+.web-14-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    .web-14-items__img{
+        position: relative;
+        right: 265px;
+
+    }
+    .web-14-items-content {
+        position: relative;
+        right: 100px;
+    }
+}
