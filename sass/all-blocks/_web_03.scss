@@ -1,0 +1,97 @@
+.contaner{
+    padding: 20px 100px 0 100px;
+    .header__items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header-items__menu-items{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul li{
+                padding: 0 10px;
+                list-style-type: none;
+                display: inline-block;
+                font-weight: bold;
+            }
+            li:first-child a{
+                color: #a8a8a8;
+                text-decoration: none;
+            }
+            li a{
+                color: black;
+            }
+            .menu-items__all-lines{
+                width: 60px;
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                .norm-line{
+                    width: 25px;
+                    height: 4px;
+                    background-color: black;
+                    margin: 3px 0;
+                }
+                .long-line{
+                    width: 35px;
+                    height: 4px;
+                    background-color: black;
+                    margin: 3px 0;
+                }
+                .short-line{
+                    width: 20px;
+                    height: 4px;
+                    background-color: black;
+                    margin: 3px 0;
+                }
+            }
+        }
+    }
+    
+    .main-section{
+        .main-section__card-items{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .card-items__title{
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+                position: relative;
+                width: 1000px;
+                height: 500px;
+                .title__text-block{
+                    position: absolute;
+                    width: 65vw;
+                    font-size: 40px;
+                    bottom: 250px;
+                    h1{
+                        font-weight: normal;
+                        font-size: 90px;
+                    }
+                }
+                .title__all-btn-block{
+                    margin: 0 auto;
+                    button:first-child{
+                        border: none;
+                        border-bottom: 1px solid red;
+                        font-size: 20px;
+                        padding: 10px 60px;
+                        margin: 0 20px;
+                        opacity: 60%;
+                    }
+                    button:last-child{
+                        background-color: red;
+                        margin: 0 20px;
+                        padding: 15px 30px;
+                        border: none;
+                        color: white;
+                        border-radius:3px;
+                        opacity: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -2,6 +2,7 @@ body {
   padding: 50px;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .container .container__content {
@@ -102,6 +103,100 @@ body {
 }
 .footer p {
   margin: 0;
+}
+
+.contaner {
+  padding: 20px 100px 0 100px;
+}
+.contaner .header__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contaner .header__items .header-items__menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contaner .header__items .header-items__menu-items ul li {
+  padding: 0 10px;
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bold;
+}
+.contaner .header__items .header-items__menu-items li:first-child a {
+  color: #a8a8a8;
+  text-decoration: none;
+}
+.contaner .header__items .header-items__menu-items li a {
+  color: black;
+}
+.contaner .header__items .header-items__menu-items .menu-items__all-lines {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.contaner .header__items .header-items__menu-items .menu-items__all-lines .norm-line {
+  width: 25px;
+  height: 4px;
+  background-color: black;
+  margin: 3px 0;
+}
+.contaner .header__items .header-items__menu-items .menu-items__all-lines .long-line {
+  width: 35px;
+  height: 4px;
+  background-color: black;
+  margin: 3px 0;
+}
+.contaner .header__items .header-items__menu-items .menu-items__all-lines .short-line {
+  width: 20px;
+  height: 4px;
+  background-color: black;
+  margin: 3px 0;
+}
+.contaner .main-section .main-section__card-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contaner .main-section .main-section__card-items .card-items__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  position: relative;
+  width: 1000px;
+  height: 500px;
+}
+.contaner .main-section .main-section__card-items .card-items__title .title__text-block {
+  position: absolute;
+  width: 65vw;
+  font-size: 40px;
+  bottom: 250px;
+}
+.contaner .main-section .main-section__card-items .card-items__title .title__text-block h1 {
+  font-weight: normal;
+  font-size: 90px;
+}
+.contaner .main-section .main-section__card-items .card-items__title .title__all-btn-block {
+  margin: 0 auto;
+}
+.contaner .main-section .main-section__card-items .card-items__title .title__all-btn-block button:first-child {
+  border: none;
+  border-bottom: 1px solid red;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin: 0 20px;
+  opacity: 60%;
+}
+.contaner .main-section .main-section__card-items .card-items__title .title__all-btn-block button:last-child {
+  background-color: red;
+  margin: 0 20px;
+  padding: 15px 30px;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  opacity: 60%;
 }
 
 .bdy {
