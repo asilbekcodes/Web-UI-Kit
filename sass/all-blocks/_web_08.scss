@@ -1,0 +1,32 @@
+.bg-img {
+    background-image: url(../../imges/web_08-img/photo_2024-05-15_14-56-57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .navbar-web-8 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .navbar-web-8__paragraf{
+            display: flex;
+            gap: 30px;
+        }
+    }
+    .web-8-main{
+        font-size: 50px;
+        text-align: center;
+    }
+    .web-8-main-second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        button{
+            width: 110px;
+            height: 40px;
+            border: none;
+        }
+        p{
+            color: white;
+        }
+    }
+}

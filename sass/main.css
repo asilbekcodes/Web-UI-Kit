@@ -345,6 +345,39 @@ body {
   margin-top: 250px;
 }
 
+.bg-img {
+  background-image: url(../../imges/web_08-img/photo_2024-05-15_14-56-57.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-img .navbar-web-8 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bg-img .navbar-web-8 .navbar-web-8__paragraf {
+  display: flex;
+  gap: 30px;
+}
+.bg-img .web-8-main {
+  font-size: 50px;
+  text-align: center;
+}
+.bg-img .web-8-main-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.bg-img .web-8-main-second button {
+  width: 110px;
+  height: 40px;
+  border: none;
+}
+.bg-img .web-8-main-second p {
+  color: white;
+}
+
 .menu {
   display: flex;
   justify-content: end;
