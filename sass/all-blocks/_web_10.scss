@@ -1,0 +1,17 @@
+.bg-img-web10 {
+    background-image: url(../../imges/web_10-img/photo_2024-05-15_15-51-59.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .web-10{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        p{
+            color: white;
+            font-size: 80px;
+            width: 550px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+    }
+}

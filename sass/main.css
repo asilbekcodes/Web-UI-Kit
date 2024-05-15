@@ -400,6 +400,24 @@ body {
   margin-left: 100px;
 }
 
+.bg-img-web10 {
+  background-image: url(../../imges/web_10-img/photo_2024-05-15_15-51-59.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-img-web10 .web-10 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.bg-img-web10 .web-10 p {
+  color: white;
+  font-size: 80px;
+  width: 550px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
 .body-bg {
   padding: 0;
   background-color: #262626;
